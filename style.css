@@ -1,0 +1,64 @@
+h1 {
+  color: rgb(222, 179, 122);
+  font-weight: bold;
+  padding: 20px;
+}
+h2 {
+  border: 1.5px solid rgb(222, 179, 122);
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 4px;
+}
+p {
+  line-height: 1.5;
+  font-size: 17px;
+  margin: 0 0 10px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  border-radius: 10px;
+}
+.improve {
+  max-width: 600px;
+  padding: 30px 60px;
+}
+button {
+  margin: 10px 50px 20px 0;
+  background: #e66465;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px 15px;
+  border: none;
+  opacity: 1;
+  border-radius: 18px;
+  box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.3);
+  transition: all 250ms ease-in-out;
+}
+button:hover {
+  opacity: 2;
+  cursor: pointer;
+  color: rgb(235, 235, 186);
+  background: blue;
+  font-weight: bold;
+}
+body {
+  background-image: linear-gradient(to top, #fffbef 20%, #e66465 80%);
+  font-family: "cerebri Sans" Arial, Helvetica, sans-serif;
+}
+.health {
+  font-style: italic;
+}
+.learn {
+  padding-top: 10px;
+  text-decoration: none;
+  color: blue;
+  font-size: 14px;
+}
+.learn:hover {
+  text-decoration: underline;
+}
+.owner {
+  background: linear-gradient(#e66465, #9198e5);
+}
